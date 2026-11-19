@@ -1,0 +1,48 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Smart Library - Book Service",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "services.book_service",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Smart Library - Student Service",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "services.student_service",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Smart Library - Librarian Service",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "services.librarian_service",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Smart Library - Borrowing Service",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "services.borrowing_service",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Smart Library - Main Application",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
+
+
